@@ -1,7 +1,7 @@
 {
   "name": "check-expect",
-  "version": "1.0.0",
-  "description": "The main purpose of check-expect is to make your test-driven development drive the design of your data, and drive the design of your functions that act on that data. It&#39;s a simple tool that allows you to execute unit tests inline with your program&#39;s code base, in a systematic way.",
+  "version": "1.0.4",
+  "description": "The main purpose of check-expect is to make your test-driven development drive the design of your data, and drive the design of your functions that act on that data. It''s a simple tool that allows you to execute unit tests inline with your program''s code base, in a systematic way.",
   "bin": "cli.js",
   "main": "lib/index.js",
   "files": [
@@ -9,7 +9,15 @@
     "cli.js"
   ],
   "keywords": [
-    "unit test","tdd","design","data","data design","algorithm design","testing","javascript","javascript tests"
+    "unit test",
+    "tdd",
+    "design",
+    "data",
+    "data design",
+    "algorithm design",
+    "testing",
+    "javascript",
+    "javascript tests"
   ],
   "license": "MIT",
   "repository": {
@@ -39,9 +47,10 @@
     "validate"
   ],
   "dependencies": {
-    "meow": "^3.7.0",
     "chalk": "^1.1.1",
-    "colors":"^1.1.2"
+    "clear": "0.0.1",
+    "colors": "^1.1.2",
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "ava": "^0.14.0",
