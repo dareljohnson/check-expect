@@ -22,7 +22,7 @@ function printTestResults() {
 
 // check Expect
 function checkExpect(f, mode, param, expected, name) {
-    clear();
+    //clear();
     results.total++;
     let result;
     if (mode <= 1 && param !== "void") {
@@ -49,4 +49,3 @@ function checkExpect(f, mode, param, expected, name) {
 }
 
 module.exports = checkExpect;
-module.exports = printTestResults;

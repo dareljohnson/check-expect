@@ -1,6 +1,6 @@
 {
   "name": "check-expect",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The main purpose of check-expect is to make your test-driven development drive the design of your data, and drive the design of your functions that act on that data. It''s a simple tool that allows you to execute unit tests inline with your program''s code base, in a systematic way.",
   "bin": "cli.js",
   "main": "lib/index.js",
