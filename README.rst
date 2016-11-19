@@ -112,7 +112,7 @@ For check-expect support contact me at `<dareljohnson@yahoo.com>`_
 
 Project Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
-Report a bug at https://github.com/dareljohnson@yahoo/check-expect/issues
+Report a bug at https://github.com/dareljohnson/check-expect/issues
 
 License
 -------
