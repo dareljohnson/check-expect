@@ -59,7 +59,7 @@ last updated in 2016.
             - void_mode: for testing and designing algorithms with objects and primitive types
             - normal_mode: for testing and designing algorithms with primitive types
             - list_mode: for testing and designing algorithms with lists, objects and primitive types
-         A test mode must be passed as the second argment to the checkExpect function
+         A test mode must be passed as the second argument to the checkExpect() function
       */
       var void_mode = 0;   
       var normal_mode = 1;
@@ -74,7 +74,7 @@ last updated in 2016.
       var num_to_square = 12;
       var code_statement_A = 12 * 12;   // used in the function body
 
-      // check the algor1thm design of our square function, and unit test it at the same time
+      // check the algorithm design of our square function, and unit test it at the same time
       checkExpect(square, normal_mode, 12, 144, "Square of a number");
 
       // Or just pass our examples
@@ -84,7 +84,7 @@ last updated in 2016.
       var code_statement_B = a => Math.pow(a,2);
       checkExpect(square, normal_mode, num_to_square, code_statement_B(12), "Square of a number");
 
-      // Or use JSON objects
+      // Or use JSON objects tested in void_mode
       var Person = {
          firstName:"John",
          lastName: "Doe",
@@ -110,7 +110,7 @@ last updated in 2016.
           return newStr.trim();    
       }
       // should produce "Darel Johnson"
-      checkExpect(stringTogether, list_mode, param3, str1 +" "+ str2, "Concatenating strings");
+      checkExpect(stringTogether, normal_mode, param3, str1 +" "+ str2, "Concatenating strings");
 
 
    ```
