@@ -87,7 +87,7 @@ Upgrades
    ```javascript
 
       npm update check-expect
-      
+
    ```
 
 That command will upgrade an existing installation of check-expect.
@@ -112,7 +112,7 @@ abandoned in 2013 and was brought back to life as check-expect by our team in
 2016. In the process, most of the project was refactored and brought up to speed
 with modern python best practices. The work done prior to the 2013 rewrite is
 licensed under MIT. Improvements since then are licensed under MIT.
-See <a href="https://github.com/dareljohnson/check-expect/LICENSE" target="top">LICENSE</a> for more details.
+See <a href="https://github.com/dareljohnson/check-expect/" target="top">LICENSE</a> for more details.
 
 ### SemVer
 
