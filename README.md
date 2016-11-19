@@ -21,7 +21,7 @@ last updated in 2016.
 * [x] Support for inline unit tests. check-expect will support test created in another directory as well.
 * [x] Support for TDD and DDD development.
 * [x] Support for Systematic Program Design methods using HtDD and HtDF recipes.
-* [x] Support for code coded terminal (console) output.
+* [x] Support for color coded terminal (console) output.
 
 ### TODO
 
