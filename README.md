@@ -2,6 +2,8 @@
 
 ![version](https://img.shields.io/npm/v/check-expect.svg)
 
+![downloads](https://img.shields.io/npm/dt/express.svg)
+
 ![commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)
 
 ![mit](http://img.shields.io/npm/l/express.svg)
