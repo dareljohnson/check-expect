@@ -1,6 +1,6 @@
 {
   "name": "check-expect",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "check-expect is a simple unit testing framework for JavaScript development.",
   "bin": "cli.js",
   "main": "lib/index.js",

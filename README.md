@@ -33,7 +33,7 @@ last updated in 2016.
 
    ```javascript
 
-      npm install check-expect
+      npm install -g check-expect
 
    ```
 2. Now you can now add a reference to the check-expect package like so.
@@ -51,9 +51,22 @@ last updated in 2016.
 
       // import packages
       var checkExpect = require('check-expect');
+      
+      /* Usage and test modes
+         checkExpect(function|object|type, mode, param, expected value, "a description of the test")
+      
+         checkExpect uses three Test Modes:
+            - void_mode: for testing and designing algorithms with objects and primitive types
+            - normal_mode: for testing and designing algorithms with primitive types
+            - list_mode: for testing and designing algorithms with lists, objects and primitive types
+         A test mode must be passed as the second argment to the checkExpect function
+      */
+      var void_mode = 0;   
+      var normal_mode = 1;
+      var list_mode = 2;
 
       // define a function
-      function = square (a) {
+      function square (a) {
            return a * a;                // could replace return statement with lambda statement: a => Math.pow(a,2)                        
       }                                 // from code_statement_B below.
 
@@ -62,14 +75,43 @@ last updated in 2016.
       var code_statement_A = 12 * 12;   // used in the function body
 
       // check the algor1thm design of our square function, and unit test it at the same time
-      checkExpect(square, 12, 144, "Square of a number");
+      checkExpect(square, normal_mode, 12, 144, "Square of a number");
 
       // Or just pass our examples
-      checkExpect(square, num_to_square, code_statement_A, "Square of a number");
+      checkExpect(square, normal_mode, num_to_square, code_statement_A, "Square of a number");
 
       // Or use lambda expressions
       var code_statement_B = a => Math.pow(a,2);
-      checkExpect(square, num_to_square, code_statement_B(12), "Square of a number");
+      checkExpect(square, normal_mode, num_to_square, code_statement_B(12), "Square of a number");
+
+      // Or use JSON objects
+      var Person = {
+         firstName:"John",
+         lastName: "Doe",
+         fullName: function () {
+             return this.firstName + " " + this.lastName;
+         }
+      };
+      checkExpect(Person.fullName(), void_mode, "void", "John Doe", "A test for fullnames");
+      
+      // Or use in testing functions that consume a list and produce a string
+      var str1   = "Darel";
+      var str2   = "Johnson";
+      var param3 = [ "Darel", "Johnson"];
+
+      function stringTogether (str1, str2){
+          var newStr = "",
+              str = [],
+              numArgs = arguments.length;
+          for(var i = 0; i < numArgs; i++){
+              str = arguments[i];
+              newStr += str +" ";
+          }
+          return newStr.trim();    
+      }
+      // should produce "Darel Johnson"
+      checkExpect(stringTogether, list_mode, param3, str1 +" "+ str2, "Concatenating strings");
+
 
    ```
 
@@ -88,7 +130,7 @@ Upgrades
 
    ```javascript
 
-      npm update check-expect
+      npm update -g check-expect
 
    ```
 
