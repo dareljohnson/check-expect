@@ -1,13 +1,13 @@
 check-expect
 ============= 
 
-|version|_  |License|_ |downloads|_  |commitizen|_
+|version|_  |license|_ |downloads|_  |commitizen|_
 
 .. |downloads| image:: http://img.shields.io/pypi/dm/check-expect.svg?style=flat
 .. _downloads: https://npmjs.org/package/check-expect
 
-.. |License| image:: https://img.shields.io/npm/l/check-expect.svg
-.. _License: http://opensource.org/licenses/MIT
+.. |license| image:: https://img.shields.io/npm/l/check-expect.svg
+.. _license: http://opensource.org/licenses/MIT
 
 .. |version| image:: https://img.shields.io/npm/v/check-expect.svg
 .. _version: https://www.npmjs.com/package/check-expect
@@ -82,6 +82,7 @@ Installation
       checkExpect(square, num_to_square, code_statement_B(12), "Square of a number");
 
 
+
 4. Execute your JavaScript from the command line (terminal) to see the unit test results. Most tests usually fail (RED) in the beginning.
 
 5. Refactor your code and execute your script until all functions under test, turn GREEN.
@@ -111,8 +112,7 @@ For check-expect support contact me at `<dareljohnson@yahoo.com>`_
 
 Project Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
-|support|_
-Report a bug at https://github.com/dareljohnson@yahoo/check-expect/issues   .. |support| image:: https://img.shields.io/github/issues/dareljohnson/check-expect.svg
+Report a bug at https://github.com/dareljohnson@yahoo/check-expect/issues |support|_  .. |support| image:: https://img.shields.io/github/issues/dareljohnson/check-expect.svg
 
 License
 -------
