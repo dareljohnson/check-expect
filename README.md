@@ -66,8 +66,8 @@ last updated in 2016.
       var list_mode = 2;
 
       // define a function
-      function square (a) {
-           return a * a;                // could replace return statement with lambda statement: a => Math.pow(a,2)                        
+      function square (a) {             // could replace return statement with
+           return a * a;                // lambda statement: a => Math.pow(a,2)                        
       }                                 // from code_statement_B below.
 
       // examples
