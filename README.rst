@@ -1,7 +1,7 @@
 check-expect
 ============= 
 
-|version|_  |license|_ |downloads|_  |commitizen|_
+|version|_  |license|_  |downloads|_  |commitizen|_
 
 .. |downloads| image:: http://img.shields.io/pypi/dm/check-expect.svg?style=flat
 .. _downloads: https://npmjs.org/package/check-expect
@@ -112,7 +112,7 @@ For check-expect support contact me at `<dareljohnson@yahoo.com>`_
 
 Project Issues
 ~~~~~~~~~~~~~~~~~~~~~~~~
-Report a bug at https://github.com/dareljohnson@yahoo/check-expect/issues |support|_  .. |support| image:: https://img.shields.io/github/issues/dareljohnson/check-expect.svg
+Report a bug at https://github.com/dareljohnson@yahoo/check-expect/issues
 
 License
 -------
