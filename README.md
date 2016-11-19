@@ -7,7 +7,7 @@
 ![mit](http://img.shields.io/npm/l/express.svg)
 
 
-check-expect is a simple unit testing framework for JavaScript development <a href="https://www.npmjs.com/package/check-expect" target="top">JavaScript package.</a>  check-expect is a mature, viable way to make your test-driven development drive the design of your data,
+check-expect is a simple unit testing framework for JavaScript development <a href="https://www.npmjs.com/package/check-expect" target="top">in a JavaScript package.</a>  check-expect is a mature, viable way to make your test-driven development drive the design of your data,
 and your data drive the design of your functions.  It's also a simple tool that allows you to execute unit tests inline
 with your code, in a systematic way.
 
