@@ -51,7 +51,7 @@ Installation
 
    .. code:: javascript
 
-      # import package
+      // import package
       var checkExpect = require('check-expect');
 
 
@@ -59,25 +59,25 @@ Installation
 
    .. code:: javascript
 
-      # import packages
+      // import packages
       var checkExpect = require('check-expect');
 
-      # define a function
+      // define a function
       function = square (a) {
-           return a * a;                   # could replace return statement with lambda statement: a => Math.pow(a,2)                        
-      }                                    # from code_statement_B below.
+           return a * a;                // could replace return statement with lambda statement: a => Math.pow(a,2)                        
+      }                                 // from code_statement_B below.
 
-      # examples
+      // examples
       var num_to_square = 12;
-      var code_statement_A = 12 * 12;       # used in the function body
+      var code_statement_A = 12 * 12;   // used in the function body
 
-      # check the algor1thm design of our square function, and unit test it at the same time
+      // check the algor1thm design of our square function, and unit test it at the same time
       checkExpect(square, 12, 144, "Square of a number");
 
-      # Or just pass our examples
+      // Or just pass our examples
       checkExpect(square, num_to_square, code_statement_A, "Square of a number");
 
-      # Or use lambda expressions
+      // Or use lambda expressions
       var code_statement_B = a => Math.pow(a,2);
       checkExpect(square, num_to_square, code_statement_B(12), "Square of a number");
 
