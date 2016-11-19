@@ -1,63 +1,51 @@
-check-expect
-============= 
+# check-expect
 
-|version|_  |downloads|_  |commitizen|_ |mit|_
+![version](https://img.shields.io/npm/v/check-expect.svg)
 
-.. |downloads| image:: http://img.shields.io/pypi/dm/check-expect.svg?style=flat
-.. _downloads: https://npmjs.org/package/check-expect
+![downloads](https://img.shields.io/npm/dm/check-expect.svg)
 
-.. |mit| image:: http://img.shields.io/npm/l/express.svg
-.. _mit: http://opensource.org/licenses/MIT
+![commitizen](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)
 
-.. |version| image:: https://img.shields.io/npm/v/check-expect.svg
-.. _version: https://www.npmjs.com/package/check-expect
-
-.. _commitizen: http://commitizen.github.io/cz-cli/
-.. |commitizen| image:: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+![mit](http://img.shields.io/npm/l/express.svg)
 
 
-check-expect is a simple unit testing framework for JavaScript development `<https://www.npmjs.com/package/check-expect>`_
-JavaScript package. check-expect is a mature, viable way to make your test-driven development drive the design of your data,
+check-expect is a simple unit testing framework for JavaScript development <a href="https://www.npmjs.com/package/check-expect" target="top">JavaScript package.</a>  check-expect is a mature, viable way to make your test-driven development drive the design of your data,
 and your data drive the design of your functions.  It's also a simple tool that allows you to execute unit tests inline
 with your code, in a systematic way.
 
-This is a fork of the original `checkexpect <https://github.com/dareljohnson/check-expect>`_, hosted on GitHub and
+This is a fork of the original <a href="https://github.com/dareljohnson/check-expect" target="top">check-expect</a>, hosted on GitHub and
 last updated in 2016.
 
-Features
---------
+### Features
 
 * [x] Support for inline unit tests. check-expect will support test created in another directory as well.
 * [x] Support for TDD and DDD development.
 * [x] Support for Systematic Program Design methods using HtDD and HtDF recipes.
 * [x] Support for code coded terminal (console) output.
 
+### TODO
 
-TODO
---------
 * [ ] GUI support.
 
-Installation
-------------
+### Installation
 
 1. Install check-expect.
 
-   .. code:: javascript
+   ```javascript
 
       npm install check-expect
-
-
+   ```
 2. Now you can now add a reference to the check-expect package like so.
 
-   .. code:: javascript
+   ```javascript
 
       // import package
       var checkExpect = require('check-expect');
-
+   ```
 
 3. Write some code and test it using check-expect inline with your code.
 
-   .. code:: javascript
+   ```javascript
 
       // import packages
       var checkExpect = require('check-expect');
@@ -80,7 +68,7 @@ Installation
       // Or use lambda expressions
       var code_statement_B = a => Math.pow(a,2);
       checkExpect(square, num_to_square, code_statement_B(12), "Square of a number");
-
+   ```
 
 
 4. Execute your JavaScript from the command line (terminal) to see the unit test results. Most tests usually fail (RED) in the beginning.
@@ -89,47 +77,45 @@ Installation
 
 6. That's it! You're done.
 
+
 Upgrades
 -------------
 
 1. Upgrade check-expect.
 
-   .. code:: javascript
+   ```javascript
 
       npm update check-expect
-
+   ```
 
 That command will upgrade an existing installation of check-expect.
 
 
-Configuration
--------------
+### Configuration
+
 None - No configuration needed.
 
-Support
-~~~~~~~~~~~~~~~~~~~~~~~~
-For check-expect support contact me at `<dareljohnson@yahoo.com>`_
+### Support
 
-Project Issues
-~~~~~~~~~~~~~~~~~~~~~~~~
-Report a bug at https://github.com/dareljohnson/check-expect/issues
+For check-expect support contact me at <dareljohnson@yahoo.com>
 
-License
--------
+### Project Issues
 
-This project originally started life as javascript unit test project. This project was
+Report a bug at <https://github.com/dareljohnson/check-expect/issues>
+
+## License
+
+This project originally started life as JavaScript unit test project. This project was
 abandoned in 2013 and was brought back to life as check-expect by our team in
 2016. In the process, most of the project was refactored and brought up to speed
 with modern python best practices. The work done prior to the 2013 rewrite is
 licensed under MIT. Improvements since then are licensed under MIT.
-See `LICENSE <https://github.com/dareljohnson/checkexpect-py/LICENSE>`_ for more details.
+See <a href="https://github.com/dareljohnson/checkexpect-py/LICENSE" target="top">LICENSE</a> for more details.
 
-SemVer
-------
+### SemVer
 
-This project implements `Semantic Versioning <http://semver.org/>`_ .
+This project implements <a href="http://semver.org/" target="top">Semantic Versioning.</a>
 
-Credits
--------
+## Credits
 
-* `Darel Johnson <https://github.com/dareljohnson>`_
+* Darel Johnson <https://github.com/dareljohnson>
