@@ -6,7 +6,7 @@ check-expect
 .. |downloads| image:: http://img.shields.io/pypi/dm/check-expect.svg?style=flat
 .. _downloads: https://npmjs.org/package/check-expect
 
-.. |license| image:: https://img.shields.io/npm/l/check-expect.svg
+.. |license| image:: https://img.shields.io/npm/l/express.svg
 .. _license: http://opensource.org/licenses/MIT
 
 .. |version| image:: https://img.shields.io/npm/v/check-expect.svg
